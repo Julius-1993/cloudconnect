@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/main.css">
+  <title>Foreign Portal</title>
+</head>
+<body>
+  <form action="apply.php" method="POST">
+    <div class="saka">
+        <center><img src="banner1.png" alt="ch" width="300px" height="80px"></center>
+        <center><h2>Foreign Application</h2><br><hr></center>
+        <label for="fname"><b>Firstname</b></label><br>
+        <input type="text" placeholder="Firstname" name="fname" id="fname" required><br><br>
+
+        <label for="mname"><b>Middle</b></label><br>
+        <input type="text" placeholder="Middlename" name="mname" id="mname" required><br><br>
+
+        <label for="surname"><b>Surname</b></label><br>
+        <input type="text" placeholder="Surname" name="surname" id="surname" required><br><br>
+
+        
+        <label>State Of Origin</label><br>
+        <select required>
+            <option value="" placeholder="Select State Of Origin">Select State Of Origin</option>
+            <option value="Plateau State">Plateau State</option>
+            <option value="Kaduna State">Kaduna State</option>
+            <option value="Niger State">Niger State</option>
+            <option value="Bauchi State">Bauchi State</option>
+            <option value=" Nasarawa State">Nasarawa State</optio>
+        </select>
+        <br><br>
+
+        <label for="gender"><b>Gender</b></label><br>
+        <select required>
+            <option value="" disabled selected>Select Your Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+
+        <label for="password"><b>Password</b></label><br>
+        <input type="password" placeholder="Password" required><br><br>
+
+        <label for="Confirm Password"><b>Confirm Password</b></label><br>
+        <input type="password" placeholder="Password" required><br><br>
+
+        <input type="checkbox" disable-checked="" required>I Agree To The Terms And Conditions<br><br><hr>
+        <center><button class="fa"><a href="index.html">Welcome Page</a></button><button class="f"><a href="ApplyforRemobilization.html">Clear</a></button><button value="submit" class="fr">Submit</button></center>
+    </div>
+</form>
+</body>
+</html>

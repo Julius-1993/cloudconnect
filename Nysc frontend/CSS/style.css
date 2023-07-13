@@ -1,0 +1,217 @@
+.img{
+  display: flex;
+  margin-left: 20%;
+  border: solid;
+  width: 450px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-right-color: rgb(222, 221, 221);
+}
+.owl{
+  background-color: rgb(140, 245, 140);
+  border-radius: 5px;
+  height: 30px;
+  padding-top: 10px;
+}
+.cap{
+  position: absolute;
+  margin-left:25px;
+  margin-left: 30%;
+  height: 40px;
+}
+.hold1:hover{
+  background-color: white;
+  color: black;
+  font-size: large;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+.hold4:hover{
+  background-color: white;
+  color: black;
+  font-size: large;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+.hold2:hover{
+  background-color: white;
+  color: black;
+  font-size: large;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+.hold3:hover{
+  background-color: white;
+  color: black;
+  font-size: large;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+ul{
+  margin-top: 10%;
+  display:flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+h1{
+  border: solid;
+  border-right: none;
+  border-left: none;
+  border-top-color: red;
+  color: white;
+  text-indent: 300px;
+  border-bottom-width: 80%;
+  border-bottom-color: rgb(161, 159, 159);
+  font-family: 'time new roman';
+  font-size: larger;
+}
+h3{
+  border: solid;
+  border-right: none;
+  border-left: none;
+  border-top-color: red;
+  border-bottom: 40px;
+  color: white;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5%;
+}
+.nav_new{
+  border:solid rgb(194, 184, 184) 1px;
+  border-radius:8px;
+  width: 400px;
+  min-height: 10px;
+  padding: 1px;
+  text-align: center;
+  margin-left: 35%;
+}
+.nav_know{
+  border:none;
+  border-radius:8px;
+  width: 400px;
+  min-height: 10px;
+  padding: 1px;
+  text-align: center;
+  margin-left: 35%;
+}
+.hold{
+  border:solid rgb(194, 184, 184) 1px;
+  border-radius:8px;
+  width: 400px;
+  min-height: 10px;
+  padding: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-left: 35%;
+}
+.hold1{
+  border:solid rgb(194, 184, 184) 1px;
+  width: 100px;
+  min-height: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 300Px;
+  float: left;
+  margin-top: 3%;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+.hold4{
+  border:solid rgb(194, 184, 184) 1px;
+  width: 100px;
+  min-height: 50px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 300Px;
+  float: left;
+  margin-top: 2%;
+  box-shadow: 5px 5px 12px 10px lightgray;
+}
+.hold2{
+  border:solid rgb(194, 184, 184) 1px;
+  border-radius:8px;
+  width: 300px;
+  min-height: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 300Px;
+  float: left;
+  margin: 25px;
+  box-shadow: 5px 12px 10px lightgray;
+  border-top: none;
+}
+.hold3{
+  border:solid rgb(194, 184, 184) 1px;
+  border-radius:8px;
+  width: 300px;
+  min-height: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 300Px;
+  margin-left: 39%;
+  box-shadow: 5px 8px 6px lightgray;
+  border-top: none;
+}
+.coloum{
+  border:solid rgb(194, 184, 184) 1px;
+  border-radius:8px;
+  width: 180px;
+  min-height: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 3%;
+  margin: 25px;
+  float: left;
+  align-items: center;
+}
+.row::after{
+  content: "";
+  clear:both;
+  display:table;
+}
+a{
+  text-decoration: none;
+  color:rgb(47, 131, 221);
+}
+h4{
+  color: red;
+}
+.bd{
+  border: none;
+  margin-left: 28%;
+  min-width: 25px;
+  margin-top: 5%;
+}
+b{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px;
+}
+#call{
+  font-family: cursive;
+  font-size: larger;
+  color:gray;
+}
+button{
+  border: none;
+  min-height: 40px;
+  background-color:white;
+  min-width: 20px;
+  margin-bottom: 8px;
+}
+button:hover{
+  background-color: red;
+  color: white;
+  font-size: larger;
+  height: fit-content;
+}
+.base{
+  position: relative;
+  border: solid rgb(234, 235, 237);
+  background-color:rgb(234, 235, 237); ;
+  height: 100px;
+  margin-top: 5%;
+}
+.basic{
+  position: relative;
+  border: solid rgb(234, 235, 237);
+  background-color:rgb(234, 235, 237);
+  height: 50px;
+  width: 100%;
+  margin-top: 2px;
+}

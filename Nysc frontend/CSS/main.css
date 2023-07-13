@@ -1,0 +1,61 @@
+.saka {
+  padding: 30px;
+  background-color: rgb(226, 222, 222);
+  color:black;
+  margin-left: 32%;
+  font-family: cursive;
+  border-radius: 8px;
+  width: 450px;
+}
+
+button {
+  padding: 8px;
+  margin: 6px;
+  color: white;
+  border: none;
+  min-width: 100px;
+  border-radius: 5px;
+}
+
+body {
+background-color: aquamarine;
+}
+
+.f {
+  background-color: rgb(255, 149, 51);
+}
+.fa {
+  background-color: rgb(70, 70, 244);
+}
+.fr {
+  background-color: rgb(20, 200, 20);
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  width: 450px;
+  border: none;
+  border-radius: 6px;
+  height: 25px;
+
+}
+
+select {
+  padding: 8px;
+  width: 467px;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+hr{
+  color: white;
+}
+form{
+  display: block;
+  margin: 0em;
+}
